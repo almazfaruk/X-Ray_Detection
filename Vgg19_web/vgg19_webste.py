@@ -1,9 +1,5 @@
-from PyQt5.QtWidgets import QApplication, QFileDialog
-from PyQt5.QtWidgets import *
-from PyQt5.uic import *
-from PyQt5.Qt import QApplication, QUrl, QDesktopServices
+
 import sys
-from PyQt5.QtGui import QPixmap
 from yolo_deneme import Getir_yolo
 import cv2
 import streamlit as st
