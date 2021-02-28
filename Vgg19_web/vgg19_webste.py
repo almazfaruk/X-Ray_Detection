@@ -4,7 +4,7 @@ from yolo_deneme import Getir_yolo
 import streamlit as st
 from PIL import Image, ImageOps
 import time
-import cv2
+from .cv2 import *
 
 
 class window():
