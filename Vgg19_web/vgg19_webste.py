@@ -47,7 +47,7 @@ class window():
                   
                     
                     class_names =  ["Kovid","Normal","Zaturre"]
-                    try:
+                    #try:
                         model = tf.keras.models.load_model(r"./yolovgg19")
                         self.img=Getir_yolo(self.photo_path)
                         dim = (224, 224)      
@@ -71,8 +71,8 @@ class window():
                         fark = end - start   
                         st.write("Tahmin Sonucu: "+str(class_names[prediction[0]]))
                         st.write("Tahmin Süresi(sn): "+str(round(fark,2)))
-                    except:
-                        st.write("Ciğer Tespit Edilemedi")
+                    #except:
+                        #st.write("Ciğer Tespit Edilemedi")
             
 if __name__ == "__main__":   
     window = window()         
