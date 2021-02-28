@@ -30,7 +30,7 @@ def Getir_yolo(resim_yol):
         # colors = np.tile(colors,(18,1))
         
         
-        model=cv2.dnn.readNetFromDarknet("Vgg19_web/spot_yolov4.cfg","Vgg19_webspot_yolov4_final.weights")
+        model=cv2.dnn.readNetFromDarknet("Vgg19_web/spot_yolov4.cfg","Vgg19_web/spot_yolov4_final.weights")
         
         layers = model.getLayerNames()
         output_layer = [layers[layer[0]-1] for layer in model.getUnconnectedOutLayers()]
