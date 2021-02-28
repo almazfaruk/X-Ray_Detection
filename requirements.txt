@@ -12,4 +12,5 @@ moviepy>=0.2.3.5
 scikit_learn>=0.20.0
 opencv-python>=3.4.0.12
 tensorflow
+cv2
 
