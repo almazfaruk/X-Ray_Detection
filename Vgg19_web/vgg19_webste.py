@@ -32,15 +32,7 @@ class window():
         def islem(self):
                     start = time.time()
                   
-                    from keras.preprocessing import image
-                    from keras.preprocessing.image import ImageDataGenerator, img_to_array, load_img
-                    import numpy as np
-                    from keras.preprocessing.image import ImageDataGenerator, img_to_array, load_img
-                    from keras.models import Sequential
-                    from keras.layers import Dense
-                    from keras.applications.vgg16 import VGG16
-                    import matplotlib.pyplot as plt
-                    from glob import glob
+                    
                     class_names =  ["Kovid","Normal","Zaturre"]
                     try:
                         model = tf.keras.models.load_model(r"./yolovgg19")
