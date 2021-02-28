@@ -4,7 +4,7 @@ Created on Fri Oct 23 15:06:55 2020
 
 @author: ASUS
 """
-
+import tensorflow as tf
 import numpy as np
 from PIL import Image, ImageOps
 def Getir_yolo(resim_yol):
