@@ -7,6 +7,7 @@ Created on Fri Oct 23 15:06:55 2020
 import tensorflow as tf
 import numpy as np
 from PIL import Image, ImageOps
+import cv2
 def Getir_yolo(resim_yol):
  
         img = Image.open(resim_yol)
