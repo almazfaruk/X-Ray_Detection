@@ -48,7 +48,7 @@ class window():
                     
                     class_names =  ["Kovid","Normal","Zaturre"]
                     #try:
-                        model = tf.keras.models.load_model(r"./yolovgg19")
+                        model = tf.keras.models.load_model(r"Vgg19_web/yolovgg19")
                         self.img=Getir_yolo(self.photo_path)
                         dim = (224, 224)      
                         self.img = cv2.cvtColor(np.array(self.img), cv2.COLOR_RGB2BGR)
