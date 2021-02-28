@@ -10,7 +10,7 @@ keras>=2.2.4
 lmdb>=0.94
 moviepy>=0.2.3.5
 scikit_learn>=0.20.0
-opencv-python
+opencv-python-headless
 tensorflow
 
 
