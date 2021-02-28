@@ -5,6 +5,7 @@ import streamlit as st
 from PIL import Image, ImageOps
 import time
 
+
 class window():
         def __init__(self):
                 
@@ -30,6 +31,17 @@ class window():
                
                
         def islem(self):
+                    import tensorflow as tf
+                    import cv2
+                    from keras.preprocessing import image
+                    from keras.preprocessing.image import ImageDataGenerator, img_to_array, load_img
+                    import numpy as np
+                    from keras.preprocessing.image import ImageDataGenerator, img_to_array, load_img
+                    from keras.models import Sequential
+                    from keras.layers import Dense
+                    from keras.applications.vgg16 import VGG16
+                    import matplotlib.pyplot as plt
+                    from glob import glob
                     start = time.time()
                   
                     
