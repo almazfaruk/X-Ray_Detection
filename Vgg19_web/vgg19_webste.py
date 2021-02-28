@@ -31,7 +31,6 @@ class window():
                
         def islem(self):
                     start = time.time()
-                    import tensorflow as tf
                   
                     from keras.preprocessing import image
                     from keras.preprocessing.image import ImageDataGenerator, img_to_array, load_img
