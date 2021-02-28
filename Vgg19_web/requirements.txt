@@ -1,11 +1,15 @@
-import tensorflow as tf
-import cv2
-from keras.preprocessing import image
-from keras.preprocessing.image import ImageDataGenerator, img_to_array, load_img
-import numpy as np
-from keras.preprocessing.image import ImageDataGenerator, img_to_array, load_img
-from keras.models import Sequential
-from keras.layers import Dense
-from keras.applications.vgg16 import VGG16
-import matplotlib.pyplot as plt
-from glob import glob
+matplotlib>=2.2.2
+six>=1.11.0
+scipy>=1.1.0
+h5py>=2.7.1
+pandas>=0.22.0
+numpy>=1.15.1
+cryptography>=2.1.4
+Pillow>=5.3.0
+keras>=2.2.4
+lmdb>=0.94
+moviepy>=0.2.3.5
+scikit_learn>=0.20.0
+opencv-python>=3.4.0.12
+tensorflow==1.15.4
+streamlit-0.68.0-py2.py3-none-any.whl
