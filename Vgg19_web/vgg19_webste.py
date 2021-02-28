@@ -1,7 +1,6 @@
 
 import sys
 from yolo_deneme import Getir_yolo
-import cv2
 import streamlit as st
 from PIL import Image, ImageOps
 import time
