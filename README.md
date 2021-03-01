@@ -13,5 +13,5 @@
  
 <h3 align="left">2. Click The Button</h1>  
 <h3 align="left" style="color:blue">And the guess result of the uploaded image is on the screen.</h3>
-<img  align="left" width="auto" height="auto"  src="https://github.com/almazfaruk/X-Ray_Detection/blob/master/img/Predict.png"  alt="Predict">
+<img  align="left" width="auto" height="auto"  src="https://github.com/almazfaruk/X-Ray_Detection/blob/master/img/predict.png"  alt="Predict">
 
