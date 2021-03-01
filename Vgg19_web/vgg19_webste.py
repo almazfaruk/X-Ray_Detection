@@ -20,7 +20,7 @@ class window():
                       image = Image.open(self.file)
                       image=image.resize((100,100))
                       st.image(image)
-                      if(st.button("İşlem Yap")):
+                      if(st.button("Process")):
                           self.sec(self.file)  
                 
         def sec(self,file_name):
@@ -69,10 +69,10 @@ class window():
                     
                         end = time.time()
                         fark = end - start   
-                        st.write("Tahmin Sonucu: "+str(class_names[prediction[0]]))
-                        st.write("Tahmin Süresi(sn): "+str(round(fark,2)))
+                        st.write("Predict Result: "+str(class_names[prediction[0]]))
+                        st.write("Predict Time(s): "+str(round(fark,2)))
                     except:
-                        st.write("Ciğer Tespit Edilemedi")
+                        st.write("Lung Undetected")
             
 if __name__ == "__main__":   
     window = window()         
