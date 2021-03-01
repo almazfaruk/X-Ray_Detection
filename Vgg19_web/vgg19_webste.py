@@ -46,7 +46,7 @@ class window():
                     start = time.time()
                   
                     
-                    class_names =  ["Kovid","Normal","Zaturre"]
+                    class_names =  ["Covid","Normal","Pneumonia"]
                     try:
                         model = tf.keras.models.load_model(r"Vgg19_web/yolovgg19")
                         self.img=Getir_yolo(self.photo_path)
